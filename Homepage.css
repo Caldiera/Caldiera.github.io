@@ -1,0 +1,153 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Master Styles-----------------------------------------------------------------------------------*/
+
+.body{
+    font-family:"sans-serif";
+    margin: 0px;
+    font-size: 100%;
+}
+
+.container{
+    display:grid;
+}
+
+
+
+
+
+
+
+
+/*nav bar-----------------------------------------------------------------------------------------------*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background:rgb(34, 34, 34);
+    height:60px;
+}
+.left{
+    margin-top: 11px;
+    display:flex;
+    
+    
+}
+
+.navbar > .left > div {
+    
+    margin-right: 20px;
+    
+    font-size: 22px;   
+}
+
+.navbar > .right > div {
+    margin-left: 540px;
+    margin-right: 20px;
+    font-size: 20px; 
+    padding-top: 2px;  
+}
+.namebar{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(54, 49, 49);
+    opacity: 90%;
+    margin-top: 16px;
+    
+}
+
+
+
+.left > div {
+    height: 32px;
+    border-bottom : 3px solid transparent;
+}
+
+.left > div a {
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(78, 73, 73);
+    opacity: 75%;
+    
+}
+
+
+
+
+
+
+
+
+
+/*main content------------------------------------------------------------------------------------------*/
+.content {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.imageWrapper1{
+    background-color: rgb(156, 13, 13);
+    background-image: url("Images/Art_c.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.imageWrapper2{
+    background-color: rgb(13, 58, 156);
+    background-image: url("Images/Code4_c.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.imageWrapper3{
+    background-color: rgb(13, 156, 32);
+    background-image: url("Images/Engineer_c.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.artImageBackground{
+    
+    writing-mode: vertical-lr;
+    margin: 0 auto;
+    font-size:300px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(78, 73, 73);
+    opacity: 75%;
+    height: 1450px;
+    
+    
+}
+
+.codingImageBackground{
+    
+    writing-mode: vertical-lr;
+    height: 1250px;
+    margin: 0 auto;
+    font-size:300px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(61, 56, 56);
+    opacity: 65%;
+}
+.engineeringImageBackground{
+    writing-mode: vertical-lr;
+    margin: 0 auto;
+    font-size:300px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(61, 56, 56);
+    opacity: 65%;
+    height: 1250px;
+    
+}

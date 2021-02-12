@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* Master Styles-----------------------------------------------------------------------------------*/
+
+.body{
+    font-family:"sans-serif";
+    margin: 0px;
+    font-size: 100%;
+}
+.container{
+    display:grid;
+}
+/*nav bar-----------------------------------------------------------------------------------------------*/
+.navbar{
+    margin: 0;
+    display:flex;
+    justify-content: space-between;
+    background:rgb(34, 34, 34);
+    height:60px;
+}
+.left{
+    margin-top: 11px;
+    display:flex;
+    
+    
+}
+.navbar > .left > div {
+    
+    margin-right: 20px;
+    
+    font-size: 22px;   
+}
+.navbar > .right > div {
+    margin-left: 540px;
+    margin-right: 20px;
+    font-size: 20px; 
+    padding-top: 2px;  
+}
+.namebar{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(54, 49, 49);
+    opacity: 90%;
+    margin-top: 16px;
+    
+}
+.left > div {
+    height: 32px;
+    border-bottom : 3px solid transparent;
+}
+.left > div a {
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(78, 73, 73);
+    opacity: 75%;
+    
+}
+/*Main Content-----------------------------------------------------------------------------------------------*/
+.mainContent{
+    background-color: rgba(97, 43, 43, 0.144);
+    margin:0 auto;
+}
+.item1{
+   
+    margin:0 auto;
+    display:flex;
+    width:100%;
+
+}
+.photo1{
+    background:url(designImages/C1.jpg);
+    background-size: cover; 
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width :400px;
+    height: 600px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.writing1{
+    background:url(designImages/C5.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width:1320px
+}
+.item2{
+    margin:3px;
+    display:flex;
+}
+.photo2{
+    background-color: rgb(255, 174, 0);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    
+    width :30%;
+    height:400px
+}
+.writing2{
+    background-color: rgb(251, 255, 0);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width:70%
+}
+
+.item3{
+   
+    margin:0 auto;
+    display:flex;
+    width:100%;
+
+}
+.photo3{
+    background:url(designImages/G1.jpg);
+    background-size: cover; 
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width :400px;
+    height: 600px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.writing3{
+    background:url(designImages/G3.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width:1320px
+}
+.item4{
+    margin:3px;
+    display:flex;
+}
+.photo4{
+    background:url(designImages/G3.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    
+    width :450px;
+    height:550px
+}
+.writing4{
+    background:url(designImages/G3.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width:100%
+}
+.item5{
+    margin:3px;
+    display:flex;
+}
+.photo5{
+    background:url(designImages/B1.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    
+    width :450px;
+    height:550px
+}
+.writing5{
+    background:url(designImages/B5.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 86%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    width:100%
+}
