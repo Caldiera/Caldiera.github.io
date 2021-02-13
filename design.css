@@ -102,7 +102,21 @@
     display:flex;
 }
 .photo2{
-    background-color: rgb(255, 174, 0);
+    background:url(designImages/C3.jpg);
+    background-size: cover; /* or contain depending on what you want */
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    border:rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    margin:3px;
+    
+    width :30%;
+    height:400px
+
+}
+.photo21{
+    background:url(designImages/C2.jpg);
     background-size: cover; /* or contain depending on what you want */
     background-position: 50% 90%;
     background-repeat: no-repeat;
@@ -115,7 +129,7 @@
     height:400px
 }
 .writing2{
-    background-color: rgb(251, 255, 0);
+    background:url(designImages/C6.jpg);
     background-size: cover; /* or contain depending on what you want */
     background-position: 50% 75%;
     background-repeat: no-repeat;
