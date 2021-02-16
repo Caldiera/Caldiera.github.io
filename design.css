@@ -19,13 +19,18 @@
     display:flex;
     justify-content: space-between;
     background:rgb(34, 34, 34);
+    
     height:60px;
 }
 .left{
     margin-top: 11px;
     display:flex;
+    margin-left: 11px;
     
     
+}
+.right{
+    margin-right:11px;
 }
 .navbar > .left > div {
     
