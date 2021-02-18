@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* Master Styles-----------------------------------------------------------------------------------*/
+
+.body{
+    font-family:"sans-serif";
+    margin: 0px;
+    font-size: 100%;
+}
+
+.container{
+    display:grid;
+}
+
+
+
+
+
+
+
+
+/*nav bar-----------------------------------------------------------------------------------------------*/
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background:rgb(34, 34, 34);
+    height:60px;
+}
+.left{
+    margin-top: 11px;
+    display:flex;
+    
+    
+}
+
+.navbar > .left > div {
+    
+    margin-right: 20px;
+    
+    font-size: 22px;   
+}
+
+.navbar > .right > div {
+    margin-left: 540px;
+    margin-right: 20px;
+    font-size: 20px; 
+    padding-top: 2px;  
+}
+.namebar{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(54, 49, 49);
+    opacity: 90%;
+    margin-top: 16px;
+    
+}
+
+
+
+.left > div {
+    height: 32px;
+    border-bottom : 3px solid transparent;
+}
+
+.left > div a {
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(78, 73, 73);
+    opacity: 75%;
+    
+}
+
+/* main content..............................................................*/
+.page1{
+    background-color: rgb(48, 48, 48);
+    height: 880px;
+    width: 100%;
+    
+}
+.intro{
+    background-color: rgb(134, 134, 134);
+    height:440px;
+
+}
+.hello{
+    
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:50px;
+    font-size: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.aboutme{
+    font-size: 40px;
+}
+.selfie{
+    background-image: url("Images/Brando.jpg");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 350px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: -150px;
+    left: 50%;
+    margin-top: -110px;
+    top: 50%;
+    
+}
+
+.blurb{
+    background-color: rgb(29, 29, 29);
+    margin-bottom: opx;
+    height:440px;
+}
