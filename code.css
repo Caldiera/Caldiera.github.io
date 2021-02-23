@@ -82,8 +82,8 @@
 
 /* main content..............................................................*/
 .page1{
-    background-color: rgb(48, 48, 48);
-    height: 880px;
+    background-color: rgb(23, 36, 44);
+    height: 480px;
     width: 100%;
     
 }
@@ -120,13 +120,117 @@
     position: absolute;
     margin-left: -150px;
     left: 50%;
-    margin-top: -110px;
-    top: 50%;
+    margin-top: -175px;
+    border: 7px solid;
+}
+.plant{
+    background-image: url("Images/Plant1.png");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 427px;
+    
+    left: 10%;
+    
+}
+.car{
+    background-image: url("Images/car.png");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 415px;
+    left: 80%;
     
 }
 
 .blurb{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(151, 89, 89);
+    background-image: url("Icons/Lines.png");
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
     margin-bottom: opx;
     height:440px;
+}
+.page2{
+    background-color: rgb(26, 26, 26);
+    background-image: url("Images/lines\ again.jpg");
+    background-size: 200px 190px;
+    display: grid;
+    height: 300%;
+    width: 100%;
+}
+.languagesWrapper{
+    margin: 30px;
+    
+    background-color: rgba(255, 255, 255, 0.795);
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 100px;
+    line-height: 100px;
+    width: 95%;
+}
+.languages{
+    margin-left: 30px;
+    position: relative;
+    left: 50%;
+    margin-left:-500px;
+}
+.skills{
+    display: grid;
+    position: absolute;
+    margin: 50px;
+    margin-top: 200px;
+    margin-left: -600px;
+    left: 50%;
+}
+.skill{
+    display: flex;
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.644);
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 80px;
+    line-height: 80px;
+    width: 1200px;
+    
+    
+}
+
+
+.skill > div {
+    
+    width: 80px;
+    height: 80px; 
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 40px;
+    margin-right: 100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+
+.python{
+    background-image: url("Images/Python.png");
+}
+.html{
+    background-image: url("Images/HTML.png");
+}
+.css{
+    background-image: url("Images/CSS.png");
+}
+.javascript{
+    background-image: url("Images/javascript.png");
 }
